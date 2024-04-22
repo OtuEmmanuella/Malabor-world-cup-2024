@@ -1,0 +1,154 @@
+.animate--text--container{
+    margin: 0 auto;
+    padding: 0;
+    /* background-color: #2f3542; */
+    color: #2f3542;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+    /* justify-content: center;  */
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    width: 48%;
+   
+    margin: auto;
+    padding: .5em;
+   
+}
+
+.animate--text--container p {
+    color: #afa9a9;
+    padding: 1em 0;
+    line-height: 1.4em;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+  
+  
+}
+
+.animated-text{
+    font-size: 2.35rem;
+    font-weight: 600;
+    min-width: 280px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: "Cormorant Unicase", serif; */
+}
+
+.animated-text span{
+    position: relative;
+  
+}
+
+.animated-text span::before{
+    content: "MAWOC";
+    color: #5a8ec6;;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background: #000;
+    border-left: 2px solid #5a8ec6;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "MAWOC";
+    }
+    21%,40%{
+        content: "UNICAL";
+    }
+    41%,60%{
+        content: "MAWOC";
+    }
+    61%,80%{
+        content: "Malabor";
+    }
+    /* 81%,100%{
+        content: "The Game";
+    } */
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: #0d1b2a; */
+    background: #fff;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img {
+    width: 30%;
+}
+
+.body {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.loaded .body{
+    opacity: 1;
+}
+
+.disppear {
+    animation: vanish 1s forwards;
+} 
+
+@keyframes vanish {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+@media (max-width: 884px) {
+
+    
+
+    .animate--text--container{
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      max-width: 600px;
+  }
+  
+  .animated-text{
+      font-size: 1.5rem;
+      font-weight: 600;
+      min-width: 280px;
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+      text-transform: uppercase;
+  }
+}
+
+  

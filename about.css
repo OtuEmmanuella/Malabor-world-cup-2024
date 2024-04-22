@@ -1,0 +1,247 @@
+
+.description {
+    padding: 5.75em 1.15em;
+  }
+  
+  .description h1 {
+    font-size: 3.8rem;
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 900;
+    color: #785d4a;
+    letter-spacing: 3px;
+    margin-bottom: 1.25em;
+  }
+  
+  .description p {
+    font-size: .7rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    color: #7b614e;
+  }
+  
+  .description-one {
+    width: 100%;
+    padding-top: 1em;
+  }
+
+  .pele-image {
+    display: block;
+    width: 100%;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .container-wrap {
+    /* width: 90%; */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about {
+    padding: 1em;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .border {
+    width: 300px;
+    height: 450px;
+    border: 2px solid #7b614e;
+    position: relative;
+  }
+
+  .image img {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  }
+  
+  .text {
+    padding-top: 9.7rem;
+    margin-left: 1.5rem;
+    padding-right: 3rem; 
+    margin-top: -38px;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    color: #7b614e;
+  }
+
+  .text p {
+    padding-top: 1rem;
+    /* margin-left: 1.5rem; */
+    /* padding-right: 3rem;  */
+    margin-top: -38px;
+    font-size: .87rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    color: #7b614e;
+  }
+
+  .read-more-text {
+    display: none;
+    font-size: 1.1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    color: #7b614e;
+}
+  
+  .title {
+    font-size: 3.2rem;
+    font-weight: 300;
+    font-family: "Bitter", serif;
+    color: #3e3229;
+    letter-spacing: 3px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+  
+  .t p {
+    width: 100%;
+    font-size: 1.1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    color: #7b614e;
+    width:96%;
+    line-height: -10px;
+    margin-top: 0;
+  }
+  
+
+.read-more-btn {
+  font-size: 1rem;
+    color: #0984e3;
+    cursor: pointer;
+}
+
+.read-more-text--show {
+    display: inline;
+}
+
+.icon-tag {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mv {
+  width: 200px;
+  object-fit: cover;
+}
+
+/*==media queries==*/
+
+@media (max-width: 895px) {
+
+.wrapper {
+    flex-direction: column;
+  }
+
+  .description-one {
+    width: 100%;
+    padding-top: 3.5em;
+    margin-bottom: 0;
+  }
+
+  .description h1 {
+    font-size: 2rem;
+  }
+
+
+
+  .description p {
+    font-size: 1.1rem;
+    padding-bottom: 1em;
+    margin-bottom: 0;
+  }
+
+  .description-one {
+    width: 100%;
+    padding-top: 1.5em;
+  }
+
+  .about {
+    height: auto;
+    display: block;
+    margin-bottom: 2.5em;
+  }
+
+ 
+  .image {
+    text-align: center;
+  }
+  .border {
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-bottom: 1.5em;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+    position: static; 
+  }
+  .text {
+    margin-left: 0;
+    padding-right: 1.5em;
+    padding-bottom: 4em;
+  }
+
+  .text p {
+    font-size: 1.1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    color: #7b614e;
+    margin-bottom: .95rem;
+  }
+
+  .title {
+    padding-top: 0.5em;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .line {
+    border-bottom: 2px solid #785d4a;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+  @media(max-width: 1025px) {
+    .home,
+    .about{
+      min-height: 50vh;
+    }
+  
+    .text {
+      padding: 3em 1em;
+  }
+  
+    .gallery {
+      min-height: 50vh;
+    }
+  
+    .about-sect {
+      min-height: 50vh;
+  }
+  
+  .description {
+    padding: 2em 1.5em;
+  }
+  }
+
+
+  

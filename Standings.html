@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="standings.css">
+    <link rel="stylesheet" href="logos.css">
+    <script src="https://kit.fontawesome.com/1597a72855.js" ></script>
+</head>
+<body>
+
+    <p id="demo"></p>
+    <main>
+
+
+
+    <!-- <section id="hero">
+        <header class="header">
+            <div class="container">
+                <nav class="navigation">
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.svg" alt="Logo" class="logo-img" />
+                    </a>
+                    <div class="mobile-menu-icon">
+                        <ion-icon name="menu-outline" class="menu_icon"></ion-icon>
+                    </div>
+                    <ul class="nav_menu">
+                        <li class="nav_list">
+                            <a href="#!" class="nav_link active">Home</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#!" class="nav_link">Stadium</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="https://world-cup-matches.codsfli.com/" class="nav_link" target="_matches">Match Schedule</a
+                >
+              </li>
+              <li class="nav_list">
+                <a href="#!" class="nav_link">Explore</a>
+                        </li>
+                        <li class="nav_list btn-nav">
+                            <a href="#!" class="btn-outline">
+                                <span>Start your journey</span>
+                                <ion-icon name="compass-outline"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="hero-main-container">
+            <div class="container">
+                <div class="hero-container">
+                    <div class="hero-content">
+                        <h1 class="section-heading">
+                            Our football dream <br /> start here!
+                        </h1>
+                        <p class="paragraph">
+                            Come for World Cup matches & explore all over Qatar.
+                        </p>
+                        <a href="#!" class="btn-primary">
+                            <span>Get the ticket</span>
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </a>
+                        <div class="worldcup-count-down">
+                            <div class="count">
+                                <h3 class="days">00</h3>
+                                <span class="count-time">days</span>
+                            </div>
+                            <div class="count">
+                                <h3 class="hours">00</h3>
+                                <span class="count-time">hours</span>
+                            </div>
+                            <div class="count">
+                                <h3 class="minutes">00</h3>
+                                <span class="count-time">minutes</span>
+                            </div>
+                            <div class="count">
+                                <h3 class="seconds">00</h3>
+                                <span class="count-time">seconds</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/mascot.png" alt="hero-img" class="hero-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- <section id="points">
+        <div class="container">
+            <h1 class="standings-heading">FIFA World Cup Qatar 2022</h1>
+            <h2 class="standings-subheading">Group Stage Points Table</h2>
+            <h3 class="loader">points table is loading...</h3>
+            <div class="points-container"></div>
+        </div>
+    </section> -->
+    <!-- <span class="sponsors">SPONSORS</span> -->
+    <div class="logos">
+
+        <div class="logos-slide">
+          <img src="./logos/3m.svg" />
+          <img class="mv" src="./logos/mawoc-logo-white bg.png" />
+          <img src="./logos/barstool-store.svg" />
+          <img class="mv" src="./logos/MV Logo.png" />
+          <img src="./logos/budweiser.svg" />
+          <img src="./logos/buzzfeed.svg" />
+          <img class="mv" src="./logos/nita.png" />
+          <img src="./logos/unical-sport.jpg" />
+          <img src="./logos/games-logo.jpeg" />
+          <img src="./logos/forbes.svg" />
+          <img src="./logos/macys.svg" />
+          <img src="./logos/unical-logo.jpg" />
+          <img src="./logos/sug.png" />
+          <img class="mv" src="./logos/tonia.png" />
+          <img src="./logos/menshealth.svg" />
+          
+        </div>
+  
+        <div class="logos-slide">
+          
+          <img src="./logos/3m.svg" />
+          <img class="mv" src="./logos/mawoc-logo-white bg.png" />
+          <img src="./logos/barstool-store.svg" />
+          <img class="mv" src="./logos/MV Logo.png" />
+          <img src="./logos/budweiser.svg" />
+          <img src="./logos/buzzfeed.svg" />
+          <img  src="./logos/nita.png" />
+          <img src="./logos/unical-sport.jpg" />
+          <img src="./logos/games-logo.jpeg" />
+          <img src="./logos/sug-logo.png" />
+          <img src="./logos/games-logo.jpeg" />
+          <img src="./logos/forbes.svg" />
+          <img src="./logos/macys.svg" />
+          <img src="./logos/unical-logo.jpg" />
+          <img src="./logos/sug.png" />
+          <img class="mv" src="./logos/tonia.png" />
+          <img src="./logos/menshealth.svg" />
+        </div>
+      </div>
+
+    
+
+
+    <section>
+        <div>
+        <img class="team--groups" src="images/Group (3).svg" alt="" srcset="">
+        </div>
+     </section>
+
+
+     <section class="product container-wrap">
+
+      <div class="product-category">
+          <h3 class="ref">OFFICIALS</h3>
+          <span class="swipe-info"><img src="https://cdn-icons-png.flaticon.com/128/2088/2088076.png" width="15px">swipe &#x2192;</span>
+      </div>
+     
+  <div class="product-container">
+      <div class="product-card">
+          <div class="product-image">
+         
+            <img src="images/messi kissing the trophy.png" class="product-thumb" alt="">
+            
+        </div>
+            <div class="product-info">
+                <p class="product-description">Victor<br><span class="goals">(Referee)</span></p>
+               
+               
+            </div>
+        </div>
+
+
+        <div class="product-card">
+          <div class="product-image">
+         
+            <img src="images/faviee tee picture.png" class="product-thumb" alt="">
+            
+        </div>
+            <div class="product-info">
+              <p class="product-description">Paul<br><span class="goals">(Referee)</span></p>
+               
+               
+            </div>
+        </div>
+
+
+        <div class="product-card">
+          <div class="product-image">
+         
+            <img src="images/faviee tee picture2.png" class="product-thumb" alt="">
+            
+        </div>
+            <div class="product-info">
+              <p class="product-description">Pele<br><span class="goals">(Referee)</span></p>
+                
+               
+            </div>
+        </div>
+
+
+        <div class="product-card">
+          <div class="product-image">
+         
+            <img src="images/Prof Florence Obi.jpeg" class="product-thumb" alt="">
+            
+        </div>
+            <div class="product-info">
+              <p class="product-description">Anara<br><span class="goals">(Referee)</span></p>
+                
+               
+            </div>
+        </div>
+
+
+
+        <div class="product-card">
+          <div class="product-image">
+         
+            <img src="images/Pele.jpeg" class="product-thumb" alt="">
+            
+        </div>
+            <div class="product-info">
+              <p class="product-description">Kelly<br><span class="goals">(Referee)</span></p>
+               
+               
+            </div>
+        </div>
+
+
+
+        <div class="product-card">
+          <div class="product-image">
+         
+            <img src="images/loader.gif" class="product-thumb" alt="">
+            
+        </div>
+            <div class="product-info">
+              <p class="product-description">Henry<br><span class="goals">(Referee)</span></p>
+                
+               
+            </div>
+        </div>
+
+
+        <div class="product-card">
+          <div class="product-image">
+         
+            <img src="images/mawoc (1).gif" class="product-thumb" alt="">
+            
+        </div>
+            <div class="product-info">
+              <p class="product-description">Noel<br><span class="goals">(Referee)</span></p>
+                
+               
+            </div>
+        </div>
+
+
+
+        <div class="product-card">
+          <div class="product-image">
+         
+            <img src="images/messi kissing the trophy.png" class="product-thumb" alt="">
+            
+        </div>
+            <div class="product-info">
+              <p class="product-description">Roland<br><span class="goals">(Referee)</span></p>
+                
+               
+            </div>
+        </div>
+
+
+      </section> <!-- PLAYER STATS GOALS END    -->
+      
+
+
+    <div class="container">
+        <h1 class="standings-heading">MAWOC 2024</h1>
+        <h2 class="standing-subheading">STANDINGS</h2>
+
+        <div class="loader">
+            <img class="load-img" src="images/loader-2.GIF" alt="Loading..." srcset="">
+           </div> 
+        
+        <div class="points-container">
+        <div class="points-table">
+        <h1 class="group-heading">Group A</h1>
+        <table>
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>MP</th>
+                <th>L</th>
+                <th>D</th>
+                <th>W</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/unical.png" alt="Netherlands" class="team-flag"> 
+              <span>MLB
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/finland.png" alt="Finland" class="team-flag"> 
+              <span>FIN
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/GER.png" alt="Germany" class="team-flag"> 
+              <span>GER
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/trinidad-and-tobago.png" alt="Tobago" class="team-flag"> 
+              <span>TBG
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+       
+        <div class="points-table">
+        <h1 class="group-heading">Group B</h1>
+        <table>
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>MP</th>
+                <th>L</th>
+                <th>D</th>
+                <th>W</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/BEL.png" alt="Belgium" class="team-flag"> 
+              <span>BEL
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/ENG.png" alt="USA" class="team-flag"> 
+              <span>ENG
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/DEN.png" alt="Iran" class="team-flag"> 
+              <span>DEN
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/SRB.png" alt="Wales" class="team-flag"> 
+              <span>SRB
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+       
+        <div class="points-table">
+        <h1 class="group-heading">Group C</h1>
+        <table>
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>MP</th>
+                <th>L</th>
+                <th>D</th>
+                <th>W</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/CRO.png" alt="Argentina" class="team-flag"> 
+              <span>CRO
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/BRA.png" alt="Poland" class="team-flag"> 
+              <span>BRA
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/greece.png" alt="Greece" class="team-flag"> 
+              <span>GRE
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/CAN.png" alt="Saudi Arabia" class="team-flag"> 
+              <span>CAN
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+       
+        <div class="points-table">
+        <h1 class="group-heading">Group D</h1>
+        <table>
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>MP</th>
+                <th>L</th>
+                <th>D</th>
+                <th>W</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/ESP.png" alt="France" class="team-flag"> 
+              <span>ESP
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/netherlands.png" alt="Netherlands" class="team-flag"> 
+              <span>NED
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/united-arab-emirates.png" alt="UAE" class="team-flag"> 
+              <span>UAE
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://cdn-icons-png.flaticon.com/128/9993/9993892.png" alt="Denmark" class="team-flag"> 
+              <span>NIG
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+       
+        <div class="points-table">
+        <h1 class="group-heading">Group E</h1>
+        <table>
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>MP</th>
+                <th>L</th>
+                <th>D</th>
+                <th>W</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/MEX.png" alt="Mexico" class="team-flag"> 
+              <span>MEX
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/tanzania.png" alt="Tanzania" class="team-flag"> 
+              <span>TAN
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/POL.png" alt="Poland" class="team-flag"> 
+              <span>POL
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/URU.png" alt="Uruguay" class="team-flag"> 
+              <span>URU
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+       
+        <div class="points-table">
+        <h1 class="group-heading">Group F</h1>
+        <table>
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>MP</th>
+                <th>L</th>
+                <th>D</th>
+                <th>W</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/FRA.png" alt="France" class="team-flag"> 
+              <span>FRA
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/cape-verde.png" alt="Cape-verde" class="team-flag"> 
+              <span>CPV
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/china.png" alt="China" class="team-flag"> 
+              <span>CHN
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://cdn-icons-png.flaticon.com/128/323/323364.png" alt="Canada" class="team-flag"> 
+              <span>SWE
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+       
+        <div class="points-table">
+        <h1 class="group-heading">Group G</h1>
+        <table>
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>MP</th>
+                <th>L</th>
+                <th>D</th>
+                <th>W</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/israel.png" alt="Israel" class="team-flag"> 
+              <span>ISR
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/ARG.png" alt="Argentina" class="team-flag"> 
+              <span>ARG
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/italy.png" alt="Italy" class="team-flag"> 
+              <span>ITA
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/paraguay.png" alt="Serbia" class="team-flag"> 
+              <span>PAR
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+       
+        <div class="points-table">
+        <h1 class="group-heading">Group H</h1>
+        <table>
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>MP</th>
+                <th>L</th>
+                <th>D</th>
+                <th>W</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/ivory-coast.png" alt="Ivory coast" class="team-flag"> 
+              <span>CIV
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/USA.png" alt="USA" class="team-flag"> 
+              <span>USA
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="images/flags/norway.png" alt="Norway" class="team-flag"> 
+              <span>NOR
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr><tr>
+            <td>
+            <div class="d-a">
+            <img src="https://world-cup.codsfli.com/flag/POR.png" alt="Portugal" class="team-flag"> 
+              <span>POR
+                </span>
+            </div>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+       </div>
+       <a class="coffee" href="https://www.buymeacoffee.com/pauledet33y"><img src="https://img.buymeacoffee.com/button-api/?text=Buy the developer a coffee&emoji=☕&slug=pauledet33y&button_colour=020322&font_colour=ffffff&font_family=Cookie&outline_colour=ffffff&coffee_colour=FFDD00" /></a>
+    </div>
+  
+
+
+   
+
+
+
+
+ <!-- <section class="group--table">
+    <div>
+        <video autoplay loop muted  playsinline width="100%">
+            <source src="videos/THE GREATEST FINAL EVER.mp4" type="video/mp4">
+             Add additional source elements for other video formats if needed -->
+            <!-- Your browser does not support the video tag.
+          </video>
+    <img class="team--groups" src="images/Group table.svg" alt="" srcset="">
+    </div>
+   
+      
+ </section> --> 
+
+ 
+
+
+
+    
+</main>   
+    <div class="nav--container">
+        <div class="navbar">
+          <ul>
+            <li value="0">
+                <a href="Standings.html">
+              <i class="fa-solid fa-trophy fa-lg"></i>
+              <span class="icon-tag">Standings</span>
+            </a>
+            </li>
+  
+            <li value="1">
+                <a href="fixtures.html">
+                    <i class="fa-solid fa-futbol"></i>
+                    <span class="icon-tag">Fixtures</span>
+                  </a>
+            </li>
+  
+            <li value="2"> 
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="icon-tag">Home</span>
+                </a>
+            </li>
+  
+            <li value="3">
+              <a href="about.html">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="icon-tag">About</span>
+                </a>
+            </li>
+  
+            <li value="4">
+              <a href="stats.html">
+                <i class="fa-solid fa-chart-simple"></i>
+                <span class="icon-tag">Stats</span>
+              </a>
+            </li>
+      
+                <!-- <div id="circle">
+                  <i class="fa-solid fa-house"></i>
+                </div> -->
+            </ul>
+        </div>
+      </div>
+      
+    
+          <script src="index.js"></script>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          <script src="standings.js"></script>
+          <script src="active-nav.js"></script>
+</body>
+</html>

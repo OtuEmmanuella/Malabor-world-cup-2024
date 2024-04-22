@@ -1,0 +1,723 @@
+[{
+    "MatchNumber": 1,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-06T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Malabor",
+    "AwayTeam": "Finland",
+    "flag": [
+        "https://networks.au-ibar.org/show/university-of-calabar/image/2008090514-1061-3120-400x300/AU+REC+logos+-+2022-03-30T154203.837.png",
+        "https://cdn-icons-png.flaticon.com/128/555/555627.png"
+    ],
+    "Group": "Group A",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 2,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-07T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Belgium",
+    "AwayTeam": "England",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/BEL.png",
+        "https://world-cup.codsfli.com/flag/ENG.png"
+    ],
+    "Group": "Group B",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 3,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-07T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Croatia",
+    "AwayTeam": "Brazil",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/CRO.png",
+        "https://world-cup.codsfli.com/flag/BRA.png"
+    ],
+    "Group": "Group C",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 4,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-07T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Spain",
+    "AwayTeam": "Netherlands",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/ESP.png",
+        "https://world-cup.codsfli.com/flag/NED.png"
+    ],
+    "Group": "Group D",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 5,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-08T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Mexico",
+    "AwayTeam": "Tanzania",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/MEX.png",
+        "https://cdn-icons-png.flaticon.com/128/555/555676.png"
+    ],
+    "Group": "Group E",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 6,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-08T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "France",
+    "AwayTeam": "Cape Verde",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/FRA.png",
+        "https://cdn-icons-png.flaticon.com/128/206/206814.png"
+    ],
+    "Group": "Group F",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 7,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-08T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Israel",
+    "AwayTeam": "Argentina",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/206/206697.png",
+        "https://world-cup.codsfli.com/flag/ARG.png"
+    ],
+    "Group": "Group G",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 8,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-09T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Ivory Coast",
+    "AwayTeam": "USA",
+    "flag": [
+        "https://img.icons8.com/?size=96&id=60220&format=png",
+        "https://world-cup.codsfli.com/flag/USA.png"
+    ],
+    "Group": "Group H",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 9,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-09T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Germany",
+    "AwayTeam": "Tobago",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/GER.png",
+        "https://cdn-icons-png.flaticon.com/128/555/555444.png"
+    ],
+    "Group": "Group A",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 10,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-09T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Denmark",
+    "AwayTeam": "Serbia",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/DEN.png",
+        "https://world-cup.codsfli.com/flag/SRB.png"
+    ],
+    "Group": "Group B",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 11,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-10T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Greece",
+    "AwayTeam": "Canada",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/206/206682.png",
+        "https://world-cup.codsfli.com/flag/CAN.png"
+    ],
+    "Group": "Group C",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+
+{
+    "MatchNumber": 12,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-10T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "UAE",
+    "AwayTeam": "Nigeria",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/3373/3373319.png",
+        "https://cdn-icons-png.flaticon.com/128/940/940286.png"
+    ],
+    "Group": "Group D",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 13,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-10T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Poland",
+    "AwayTeam": "Uruguay",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/POL.png",
+        "https://world-cup.codsfli.com/flag/URU.png"
+    ],
+    "Group": "Group E",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 14,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-11T08:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "China",
+    "AwayTeam": "Sweden",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/5111/5111624.png",
+        "https://cdn-icons-png.flaticon.com/128/555/555606.png"
+    ],
+    "Group": "Group F",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 15,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-11T10:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Italy",
+    "AwayTeam": "Paraguay",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/3373/3373278.png",
+        "https://cdn-icons-png.flaticon.com/128/206/206811.png"
+    ],
+    "Group": "Group G",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 16,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-11T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Norway",
+    "AwayTeam": "Portugal",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/555/555621.png",
+        "https://world-cup.codsfli.com/flag/POR.png"
+    ],
+    "Group": "Group H",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 17,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-11T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Tobago",
+    "AwayTeam": "Malabor",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/555/555444.png",
+        "https://networks.au-ibar.org/show/university-of-calabar/image/2008090514-1061-3120-400x300/AU+REC+logos+-+2022-03-30T154203.837.png"
+    ],
+    "Group": "Group A",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 18,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-11T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Serbia",
+    "AwayTeam": "Belgium",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/SRB.png",
+        "https://world-cup.codsfli.com/flag/BEL.png"
+    ],
+    "Group": "Group B",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 19,
+    "RoundNumber": 1,
+    "DateUtc": "2024-05-12T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Canada",
+    "AwayTeam": "Croatia",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/CAN.png",
+        "https://world-cup.codsfli.com/flag/CRO.png"
+    ],
+    "Group": "Group C",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 20,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-12T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Nigeria",
+    "AwayTeam": "Spain",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/940/940286.png",
+        "https://world-cup.codsfli.com/flag/ESP.png"
+    ],
+    "Group": "Group D",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 21,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-12T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Uruguay",
+    "AwayTeam": "Mexico",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/URU.png",
+        "https://world-cup.codsfli.com/flag/MEX.png"
+    ],
+    "Group": "Group E",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 22,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-13T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Sweden",
+    "AwayTeam": "France",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/555/555606.png",
+        "https://world-cup.codsfli.com/flag/FRA.png"
+    ],
+    "Group": "Group F",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 23,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-13T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Paraguay",
+    "AwayTeam": "Israel",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/206/206811.png",
+        "https://cdn-icons-png.flaticon.com/128/206/206697.png"
+    ],
+    "Group": "Group G",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 24,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-13T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Portugal",
+    "AwayTeam": "Ivory Coast",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/POR.png",
+        "https://img.icons8.com/?size=96&id=60220&format=png"
+    ],
+    "Group": "Group H",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 25,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-14T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Finland",
+    "AwayTeam": "Germany",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/555/555627.png",
+        "https://world-cup.codsfli.com/flag/GER.png"
+    ],
+    "Group": "Group A",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 26,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-14T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "England",
+    "AwayTeam": "Denmark",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/ENG.png",
+        "https://world-cup.codsfli.com/flag/DEN.png"
+    ],
+    "Group": "Group B",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 27,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-14T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Brazil",
+    "AwayTeam": "Greece",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/BRA.png",
+        "https://cdn-icons-png.flaticon.com/128/206/206682.png"
+    ],
+    "Group": "Group C",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 28,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-15T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Netherlands",
+    "AwayTeam": "UAE",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/NED.png",
+        "https://cdn-icons-png.flaticon.com/128/3373/3373319.png"
+    ],
+    "Group": "Group D",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 29,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-15T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Tanzania",
+    "AwayTeam": "Poland",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/555/555676.png",
+        "https://world-cup.codsfli.com/flag/POL.png"
+    ],
+    "Group": "Group E",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 30,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-15T16:00:00+01:00",
+    "Location": "Education City Stadium",
+    "HomeTeam": "Cape Verde",
+    "AwayTeam": "China",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/206/206814.png",
+        "https://cdn-icons-png.flaticon.com/128/5111/5111624.png"
+    ],
+    "Group": "Group F",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 31,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-16T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Argentina",
+    "AwayTeam": "Italy",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/ARG.png",
+        "https://cdn-icons-png.flaticon.com/128/3373/3373278.png"
+    ],
+    "Group": "Group G",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 32,
+    "RoundNumber": 2,
+    "DateUtc": "2024-05-16T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "USA",
+    "AwayTeam": "Norway",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/USA.png",
+        "https://cdn-icons-png.flaticon.com/128/555/555621.png"
+    ],
+    "Group": "Group H",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 33,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-16T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Malabor",
+    "AwayTeam": "Germany",
+    "flag": [
+        "https://networks.au-ibar.org/show/university-of-calabar/image/2008090514-1061-3120-400x300/AU+REC+logos+-+2022-03-30T154203.837.png",
+        "https://world-cup.codsfli.com/flag/GER.png"
+    ],
+    "Group": "Group A",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+
+{
+    "MatchNumber": 34,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-17T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Belgium",
+    "AwayTeam": "Denmark",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/BEL.png",
+        "https://world-cup.codsfli.com/flag/DEN.png"
+    ],
+    "Group": "Group B",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 35,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-17T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Croatia",
+    "AwayTeam": "Greece",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/CRO.png",
+        "https://cdn-icons-png.flaticon.com/128/206/206682.png"
+    ],
+    "Group": "Group C",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 36,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-17T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Spain",
+    "AwayTeam": "UAE",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/ESP.png",
+        "https://cdn-icons-png.flaticon.com/128/3373/3373319.png"
+    ],
+    "Group": "Group D",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 37,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-18T08:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Mexico",
+    "AwayTeam": "Poland",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/MEX.png",
+        "https://world-cup.codsfli.com/flag/POL.png"
+    ],
+    "Group": "Group E",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 38,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-18T10:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "France",
+    "AwayTeam": "China",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/FRA.png",
+        "https://cdn-icons-png.flaticon.com/128/5111/5111624.png"
+    ],
+    "Group": "Group F",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 39,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-18T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Israel",
+    "AwayTeam": "Italy",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/206/206697.png",
+        "https://cdn-icons-png.flaticon.com/128/3373/3373278.png"
+    ],
+    "Group": "Group G",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 40,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-18T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Ivory Coast",
+    "AwayTeam": "Norway",
+    "flag": [
+        "https://img.icons8.com/?size=96&id=60220&format=png",
+        "https://cdn-icons-png.flaticon.com/128/555/555621.png"
+    ],
+    "Group": "Group H",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 41,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-19T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Tobago",
+    "AwayTeam": "Finland",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/555/555444.png",
+        "https://cdn-icons-png.flaticon.com/128/555/555627.png"
+    ],
+    "Group": "Group A",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 42,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-19T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Serbia",
+    "AwayTeam": "England",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/SRB.png",
+        "https://world-cup.codsfli.com/flag/ENG.png"
+    ],
+    "Group": "Group B",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 43,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-19T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Canada",
+    "AwayTeam": "Brazil",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/CAN.png",
+        "https://world-cup.codsfli.com/flag/BRA.png"
+    ],
+    "Group": "Group C",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 44,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-20T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Nigeria",
+    "AwayTeam": "Netherlands",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/940/940286.png",
+        "https://world-cup.codsfli.com/flag/NED.png"
+    ],
+    "Group": "Group D",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 45,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-20T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Uruguay",
+    "AwayTeam": "Tanzania",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/URU.png",
+        "https://cdn-icons-png.flaticon.com/128/555/555676.png"
+    ],
+    "Group": "Group E",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 46,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-20T16:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Sweden",
+    "AwayTeam": "Cape Verde",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/555/555606.png",
+        "https://cdn-icons-png.flaticon.com/128/206/206814.png"
+    ],
+    "Group": "Group F",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 47,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-21T12:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Paraguay",
+    "AwayTeam": "Argentina",
+    "flag": [
+        "https://cdn-icons-png.flaticon.com/128/206/206811.png",
+        "https://world-cup.codsfli.com/flag/ARG.png"
+    ],
+    "Group": "Group G",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+},
+{
+    "MatchNumber": 48,
+    "RoundNumber": 3,
+    "DateUtc": "2024-05-21T14:00:00+01:00",
+    "Location": "Abraham Ordia Stadium",
+    "HomeTeam": "Portugal",
+    "AwayTeam": "USA",
+    "flag": [
+        "https://world-cup.codsfli.com/flag/POR.png",
+        "https://world-cup.codsfli.com/flag/USA.png"
+    ],
+    "Group": "Group H",
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+}
+]
