@@ -98,12 +98,21 @@ main {
     }
 }
 
-.container {
+ /* .container {
     max-width: var(--container);
     padding: 0 2rem;
     margin: var(--m-auto);
+    border: 1px solid red;
     width: 100%;
-} 
+}   */
+/* 
+.container {
+    border: 1px solid blue;
+    max-width: var(--container);
+    
+    width: 97%;
+    margin: auto;
+} */
 
 .group--table{
     margin-bottom: 7.5rem;
@@ -342,6 +351,10 @@ main {
     }
 }
 
+.table-heading {
+    padding-left: 1em;
+}
+
 .standings-heading {
     padding-top: 2rem;
     font-size: 2.5rem;
@@ -362,15 +375,17 @@ main {
 
 .points-container {
     /* padding: 3rem 0 2rem 0; */
-    padding: 1.5rem 0;
+    padding: 1.5rem 1em;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
     gap: 2rem;
 }
 
 .points-table {
     box-shadow: 0 0 0.5rem 0.2rem var(--secondary);
     border-radius: 0.5rem;
+    margin: auto;
+    min-width: 75%;
 }
 
 .group-heading {
@@ -525,9 +540,11 @@ main {
   /*==product slider==*/
 
   .container-wrap {
-      width: 90%;
+      width: 97%;
       max-width: 750px;
       margin: auto;
+      margin-bottom: 1em;
+     
   }
   
   .product-category {
@@ -547,6 +564,10 @@ main {
     .product {
       overflow: hidden;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   
     
@@ -622,6 +643,10 @@ main {
     .ref {
         font-family: 'Courier New', Courier, monospace;
         text-transform: uppercase;
+    }
+
+    .coffee {
+        margin-left: 1em;
     }
 
 

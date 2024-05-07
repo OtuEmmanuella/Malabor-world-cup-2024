@@ -2,7 +2,7 @@ let days = document.querySelector('.days');
 let hours = document.querySelector('.hours');
 let minutes = document.querySelector('.minutes');
 let seconds = document.querySelector('.seconds');
-const start = new Date('2024-05-06T16:00:00Z').getTime();
+const start = new Date('2024-05-06T15:00:00Z').getTime();
 
 // const start = new Date('2024-05-13 16:00:00Z').getTime();
 

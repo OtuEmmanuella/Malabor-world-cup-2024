@@ -11,7 +11,7 @@
 
 :root {
     --bg: #000;
-    --card-bg: #cac4ce;
+    --card-bg: #f8f8f8;
     --white: #fff;
     --shadow: rgba(235, 240, 250, 0.731);
     --text-dark: rgb(5, 29, 49);
@@ -70,7 +70,7 @@ body {
 }
 
 .section-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     /* margin: 3rem 0; */
     color: #fff;
 }
