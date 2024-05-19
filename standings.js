@@ -1,3 +1,35 @@
+// window.addEventListener('load', function() {
+//     let audio = document.getElementById('background-music');
+//     audio.play().catch(error => {
+//         console.error('Audio playback failed:', error);
+//     });
+// });
+
+
+
+
+window.addEventListener('load', function() {
+    var audio = document.getElementById('background-music');
+
+    // Function to play audio on the first user interaction
+    function playAudio() {
+        audio.volume = 0.5; // Set volume to 50%
+        audio.play().catch(error => {
+            console.error('Audio playback failed:', error);
+        });
+        // Remove the event listener after the audio starts playing
+        document.removeEventListener('click', playAudio);
+        document.removeEventListener('touchstart', playAudio);
+    }
+
+    // Add event listeners for click and touchstart
+    document.addEventListener('click', playAudio);
+    document.addEventListener('touchstart', playAudio);
+});
+
+
+
+
 // document.addEventListener('DOMContentLoaded', () => {
 //     let menu = document.querySelector('.nav_menu');
 //     let menu_toggle = document.querySelector('.mobile-menu-icon');
