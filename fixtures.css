@@ -196,7 +196,7 @@ body {
 
   .marquee, .marquee2 {
     background-color: #0d1b2a;
-    color: #fff;
+    color: #ea0909;
     padding: 1rem;
     font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
@@ -301,4 +301,7 @@ body {
     color: #5a8ec6;
   }
   
-
+.R16{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}

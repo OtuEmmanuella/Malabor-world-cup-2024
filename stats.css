@@ -267,7 +267,14 @@ main {
   color: #000;
 }
 
+.round-of-16{
+  background-color: rgba(41, 39, 39, 0.087);
+  border-radius: 10px;
+}
 
+.match-result-color{
+  background-color: green;
+}
   
 
   

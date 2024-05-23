@@ -650,4 +650,40 @@ main {
     }
 
 
+    .marquee {
+        overflow: hidden;
+        display: flex;
+       
+      }
+      
+      .marquee h1{
+        white-space: nowrap;
+      }
+    
+    
+      .marquee2 {
+        overflow: hidden;
+        display: flex;
+      }
+      
+      .marquee2 h1{
+        white-space: nowrap;
+      }
+    
+      .marquee, .marquee2 {
+        /* background-color: #0d1b2a; */
+        background-color: #02041b;
+        color: #f10b0b;
+        padding: 2rem;
+        font-size: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .team--group-div {
+        background-color: #000;
+      }
+
     
